@@ -224,7 +224,7 @@ h1, h2, h3 {
 .profil-pria {
     width: 100%;
     height: 100svh;
-    background-image: url('img/bg\ martua.jpg'); /* foto mempelai pria */
+    background-image: url('img/bg-martua.jpg'); /* foto mempelai pria */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -286,7 +286,7 @@ h1, h2, h3 {
 /* ========================= */
 
 #acara {
-    background: url('img/save\ the\ date.jpg') center/cover no-repeat;
+    background: url('img/save-the-date.jpg') center/cover no-repeat;
     padding: 60px 20px;
     position: relative;
 }
@@ -573,79 +573,62 @@ h1, h2, h3 {
 /* UCAPAN */
 /* ============================= */
 .ucapan-container {
-    max-width: 450px;
-    margin: auto;
-    padding: 20px;
+  padding: 30px 15px;
+  background: #000;
 }
 
+.judul-ucapan {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* KOTAK KOMENTAR */
 .chat-box {
-    background: #f1f1f1;
-    padding: 15px;
-    height: 300px;
-    border-radius: 10px;
-    overflow-y: auto;
-    margin-bottom: 15px;
+  background: #fff;
+  height: 260px;          /* 👈 WAJIB ADA */
+  border-radius: 15px;
+  padding: 15px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  color: #000;
 }
 
-.chat-item {
-    margin-bottom: 15px;
-    position: relative;
-}
-
-.chat-meta {
-    font-size: 12px;
-    color: #666;
-    margin-bottom: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.chat-message {
-    background: #dcf8c6; /* warna bubble */
-    color: #000;         /* warna tulisan biar terlihat */
-    padding: 10px 12px;
-    border-radius: 10px;
-    display: inline-block;
-    max-width: 80%;
-}
-
-
+/* FORM KE BAWAH */
 .chat-input {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.chat-input input {
-    flex: 1;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+.chat-input input,
+.chat-input textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 14px;
+}
+
+.chat-input textarea {
+  min-height: 80px;
+  resize: none;
 }
 
 .chat-input button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background: #28a745;
-    color: white;
-    cursor: pointer;
+  background: #ffd700;
+  color: #000;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
-.delete-btn {
-    color: #ff4d4d;
-    font-size: 14px;
-    cursor: pointer;
-    margin-left: 8px;
-}
-.delete-btn:hover {
-    color: red;
-}
 
 
 /* ==== LOVE STORY SECTION ==== */
 .love-section {
-    background: url("img/love\ story.jpg") center/cover no-repeat;
+    background: url("img/love-story.jpg") center/cover no-repeat;
     padding: 60px 20px;
     color: #fff;
     position: relative;
@@ -722,7 +705,7 @@ body {
   position: relative;
   width: 100%;
   height: 100svh;
-  background: url('foto-kamu.jpg') no-repeat center center/cover;
+  background: url('img/gambar1.jpg') no-repeat center center/cover;
   display: flex;
   align-items: flex-end;
   justify-content: center;
